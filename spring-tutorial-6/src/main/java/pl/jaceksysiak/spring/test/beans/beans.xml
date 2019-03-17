@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+	default-autowire="byType"
+	default-autowire-candidates="consoleWriter,fileWriter">
+ 
+	
+ 
+	<bean id="logger" class="pl.jaceksysiak.spring.test.Logger">
+	</bean>
+
+	<bean id="consoleWriter"
+		class="pl.jaceksysiak.spring.test.ConsoleWriter">
+	</bean>
+
+	<bean id="fileWriter"
+		class="pl.jaceksysiak.spring.test.FileWriter">
+	</bean>
+
+	<bean id="fileWriter2"
+		class="pl.jaceksysiak.spring.test.FileWriter">
+	</bean>
+	
+</beans>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
